@@ -1,0 +1,63 @@
+.restaurant-card {
+    border: 2px solid #ff8100;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 350px; /* fixed height for alignment */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* ensures spacing within the card */
+}
+
+/* Grid layout for the restaurant cards in Streamlit */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* space between cards */
+}
+
+.column {
+    flex: 1 0 22%; /* Assuming you want 4 columns, adjusts based on space available */
+    min-width: 250px; /* minimum width for smaller screens */
+}
+
+.address a {
+    color: #ff8100; /* Just Eat primary color */
+    text-decoration: none;
+}
+
+.address a:hover {
+    text-decoration: underline;
+}
+
+/* Define your custom styles here */
+.reportview-container .main .block-container {
+    max-width: 1200px;
+    padding-top: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+.reportview-container .main {
+    color: #4a4a4a;
+    background-color: #ffffff;
+}
+header .decoration {
+    background-color: #ff8100;
+}
+.sidebar .sidebar-content {
+    background-image: linear-gradient(#ff8100, #4a4a4a);
+}
+.btn-primary {
+    border-color: #ff8100;
+    background-color: #ff8100;
+    color: #ffffff;
+}
+.btn-primary:hover {
+    background-color: #ffffff;
+    color: #ff8100;
+}
+.stTextInput > div > label {
+    font-size: 18px;
+}
+
