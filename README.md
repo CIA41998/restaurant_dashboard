@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ## Setting Up
 Ensure you have the following files in your project directory:
 
-styles.css: Contains the CSS for styling the restaurant cards.
+styles.css: Contains the CSS for styling the restaurant cards. <br />
 restaurant_card.html: HTML template for displaying each restaurant.
 
 ## How to Run the App
